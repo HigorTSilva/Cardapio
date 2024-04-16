@@ -156,14 +156,17 @@ checkoutBtn.addEventListener("click", function() {
 
     const cartItems = cart.map((item) => {
         return (
-            `${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price} | `
+            `*Eu quero:* ${item.name}, Quantidade: (${item.quantity}), Preço: R$${item.price}
+
+`
         );
     }).join("");
 
     const message = encodeURIComponent(cartItems);
     const phone = "22988284426";
 
-    window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addresInput.value}`, "_blank");
+    window.open(`https://wa.me/${phone}?text=${message}Endereço: ${addresInput.value}    |
+    Preço Total: ${cartTotal.textContent}`, "_blank");
 
     cart = [];
     updateCartModal();
@@ -173,7 +176,8 @@ checkoutBtn.addEventListener("click", function() {
 function checkRestaurantOpen(){
     const date = new Date();
     const hour = date.getHours();
-    return hour >= 17 && hour < 22;
+    const day = date.getDay();
+    return hour >= 9 && hour < 22 && day >= 1 && day <= 6;
 }
 
 const spanItem = document.getElementById("date-span");
