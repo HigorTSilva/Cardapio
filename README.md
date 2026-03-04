@@ -12,7 +12,7 @@
 
 | Cardápio | Carrinho |
 |---|---|
-| ![Menu](./.github/preview-menu.png) | ![Cart](./.github/preview-cart.png) |
+| ![Menu](./.github/Cardapio.png) | ![Cart](./.github/FinalizarPedido.png) |
 
 ---
 
