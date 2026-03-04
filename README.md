@@ -12,7 +12,7 @@
 
 | Cardápio | Carrinho |
 |---|---|
-| ![Menu](https://github.com/HigorTSilva/Cardapio/Cardapio.png) | ![Cart](https://github.com/HigorTSilva/Cardapio/FinalizarPedido.png) |
+| ![Menu](https://github.com/HigorTSilva/Cardapio/blob/main/Cardapio.png) | ![Cart](https://github.com/HigorTSilva/Cardapio/blob/main/FinalizarPedido.png) |
 
 ---
 
